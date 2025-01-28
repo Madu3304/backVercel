@@ -1,0 +1,97 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "novaTentativa",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Cantor/GetMusicas": {
+      "get": {
+        "tags": [
+          "Cantor"
+        ],
+        "parameters": [
+          {
+            "name": "musica",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cantor/GetTodosGeneros": {
+      "get": {
+        "tags": [
+          "Cantor"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cantor/GetGenero": {
+      "get": {
+        "tags": [
+          "Cantor"
+        ],
+        "parameters": [
+          {
+            "name": "genero",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cantor/Getartistaordenado": {
+      "get": {
+        "tags": [
+          "Cantor"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cantor/GetArtista": {
+      "get": {
+        "tags": [
+          "Cantor"
+        ],
+        "parameters": [
+          {
+            "name": "artist",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

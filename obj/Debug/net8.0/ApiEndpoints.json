@@ -1,0 +1,70 @@
+[
+  {
+    "ContainingType": "novaTentativa.Controllers.CantorController",
+    "Method": "GetFiltroPorNome",
+    "RelativePath": "api/Cantor/GetArtista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "artist",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "novaTentativa.Controllers.CantorController",
+    "Method": "GetCantoresOrdenados",
+    "RelativePath": "api/Cantor/Getartistaordenado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "novaTentativa.Controllers.CantorController",
+    "Method": "GetFiltroGenero",
+    "RelativePath": "api/Cantor/GetGenero",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "genero",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "novaTentativa.Controllers.CantorController",
+    "Method": "GetFiltroCantores",
+    "RelativePath": "api/Cantor/GetMusicas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "musica",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "novaTentativa.Controllers.CantorController",
+    "Method": "GetGeneros",
+    "RelativePath": "api/Cantor/GetTodosGeneros",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
